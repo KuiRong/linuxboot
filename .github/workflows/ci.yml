@@ -3,9 +3,9 @@ on:
   # Triggers the workflow on push or pull request events but only for the
   # master branch.
   push:
-    branches: [main]
+    branches: [development]
   pull_request:
-    branches: [main]
+    branches: [development]
 
   # Triggers the workflow every day at 23:00.
   schedule:
